@@ -1,0 +1,10 @@
+This is for a gossip based communication between 5 nodes
+
+Requirements
+1. socket knowledge
+2. connecting to specific sockets
+3. the connected nodes are stored as an array
+4. the sent message will also contain a list of all nodes that have received the message
+5. this list can be stored bitwise in an integer, each bit representin whether a node received a message or not
+6. an array of ones and zeroes can also do the same, it will be easier but take more space and time(which is irrelevant)
+
